@@ -1,0 +1,209 @@
+.leftcontainer {
+	width: 20%;
+	height: 100%;
+	padding: 11vh 4%;
+}
+
+@media screen and (min-width: 650px){
+	.leftcontainer {
+		padding: 20vh 4%;
+	}
+}
+
+@media screen and (min-width: 1000px){
+	.leftcontainer {
+		padding: 29vh 4%;
+	}
+}
+
+.rightcontainer {
+	width: 80%;
+	height:100%;
+	float: right;
+	padding-right: 2%;
+}
+
+.headercontainer {
+	width: 100%;
+	max-height: 40%;
+	display: flex;
+	border-bottom: 0.2em solid #bcbbbb;
+}
+
+@media screen and (min-width: 1000px){
+	.headercontainer {
+		border-bottom: 0.4em solid #bcbbbb;
+	}
+}
+
+.logo {
+	width: 20%;
+	height: 20%;
+	text-align: left;
+}
+
+.name {
+	width: 80%;
+	text-align: right;
+	font: 4vw/90% calibri;
+	color: #747704;
+}
+
+h2 {
+    text-align: right;
+    font-size: 80%;
+}
+
+.mainimage {
+	display: flex;
+	padding-top: 1em;
+	width: 100%;
+	height: 150%;
+}
+
+.feature{
+	height: 8vw;
+}
+
+h4 {
+	display: flex;
+	width: 150%;
+	font: 7vw calibri;
+	color: #bcbbbb;
+}
+
+@media screen and (min-width: 650px){
+	h4 {
+		font: 4vw calibri;
+	}
+}
+
+.bottomcontainer {
+	width: 100%;
+	line-height: 30%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media screen and (min-width: 650px){
+	.bottomcontainer {
+		flex-wrap: nowrap;
+	}
+	/*subcontainer is added to prevent the 3rd image to wrap into the second row */
+	.subcontainer {
+		width: 33%;
+	}
+}
+
+#app {
+	order: 1;
+	width: 100%;
+}
+
+#sun {
+	order: 2;
+	width: 100%;
+}
+
+#bo {
+	order: 3;
+	width: 100%;
+}
+
+h3 {
+	text-align: center;
+	font-size: 5vw;
+	color: #747704;
+}
+
+@media screen and (min-width: 650px){
+	h3 {
+		font-size: 2vw;
+	}
+}
+
+a {
+	display: block;
+	width: auto;
+	margin: auto;
+	font-size: 2.5vmax;
+	color: #747704;
+	text-align: center;
+	padding-bottom: 2em;
+	word-wrap: break-word;
+}
+
+@media screen and (min-width: 650px){
+	a {
+		font-size: 1.5vmin;
+	}
+}
+
+div#left1 {
+	height: 6vh;
+	width: 9vw;
+	margin-bottom: 10px;
+	background-color: #f8981c;
+}
+
+@media screen and (min-width: 650px){
+	div#left1 {
+		height: 9vh;
+		width: 9vw;
+	}
+}
+
+@media screen and (min-width: 1000px){
+	div#left1 {
+		height: 10vh;
+		width: 8vw;
+	}
+}
+
+div#left2 {
+	height: 6vh;
+	width: 9vw;
+	margin-bottom: 10px;
+	background-color: #bcbbbb;
+}
+
+@media screen and (min-width: 650px){
+	div#left2 {
+	height: 9vh;
+	width: 9vw;
+	}
+}
+
+@media screen and (min-width: 1000px){
+	div#left2 {
+	height: 10vh;
+	width: 8vw;
+	}
+}
+
+div#left3 {
+	height: 6vh;
+	width: 9vw;
+	background-color: #747704;
+}
+
+@media screen and (min-width: 650px){
+	div#left3 {
+		height: 9vh;
+		width: 9vw;
+	}
+}
+
+@media screen and (min-width: 1000px){
+	div#left3 {
+		height: 10vh;
+		width: 8vw;
+	}
+}
+
+h5 {
+	font-size: 2vw;
+}
+
+
+
